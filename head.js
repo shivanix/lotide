@@ -1,5 +1,5 @@
 // FUNCTION IMPLEMENTATION
-const head = function(item1) {
+const head = function(item1){
   return item1[0];
 };
 // console.log(head([5,6,7], 5));
@@ -13,5 +13,5 @@ const assertEqual = function(actual, expected) {
 };
 
 // TEST CODE
-console.log(assertEqual(head([5, 6, 7]), 5));
+console.log(assertEqual(head([5,6,7]), 5));
 console.log(assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"));

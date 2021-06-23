@@ -1,7 +1,7 @@
-const without = function(source, items) {
+const without = function(source, itemsToRemove) {
   let output = [];
   for (let i = 0; i < source.length; i++) {
-    let idx = items.indexOf(source[i]);
+    let idx = itemsToRemove.indexOf(source[i]);
     if (idx < 0) {
       output.push(source[i]);
     }

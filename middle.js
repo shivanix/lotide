@@ -32,7 +32,7 @@ const assertArraysEqual = function(array1, array2) {
   console.log(`✔✔ ${array1} is Equal to ${array2}`);
 };
 
-assertArraysEqual([1, 2, 3], [1, 4]);
+//assertArraysEqual([1, 2, 3], [1, 4]);
 
 //ACTUAL FUNCTION
 
@@ -49,7 +49,5 @@ const middle = function(array) {
   return [array[Math.floor(arrayLength / 2)]];
 
 };
-console.log(middle([1, 2, 4]));
-console.log(middle([1, 2, 3, 4, 5, 6]));
-console.log(middle([1, 2, 3, 4]));
-console.log(middle([1, 2]));
+
+module.exports = middle;

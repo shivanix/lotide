@@ -1,3 +1,4 @@
+
 const eqArrays = function(array1, array2) {
 
   if (array1.length !== array2.length) {
@@ -12,18 +13,5 @@ const eqArrays = function(array1, array2) {
 
   return true;
 };
-console.log(eqArrays([1, 3, 2], [1, 2, 3]));
-console.log(eqArrays(["1", "2", "3"], ["1", "2", 3])); // => false)
-console.log(eqArrays([1, 2], [3, 2, 1])); // => false)
 
-
-const assertEqual = function(actual, expected) {
-  if (actual !== expected) {
-    return `false`;
-  }
-  return `true`;
-};
-
-// TEST CODE
-
-console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
+module.exports = eqArrays;

@@ -4,5 +4,5 @@ const tail = function(input) {
 // console.log(tail([5,6,7]));
 
 module.exports = tail;
-
+    
 

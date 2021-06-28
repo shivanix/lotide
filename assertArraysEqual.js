@@ -24,4 +24,4 @@ const assertArraysEqual = function(array1, array2) {
   console.log(`✔✔ ${array1} is Equal to ${array2}`);
 };
 
-assertArraysEqual([1, 2, 3], [1, 4]);
+module.exports = assertArraysEqual;
